@@ -4,3 +4,12 @@ I've decided to look into the mobile app; some information about this is as foll
   **functional requirements  | ability to take customer text inputs for reviews, 
   be able to link to a product database which has information about products, 
   services and stock counts. Ability to hold payments and potentially store this information for later purchases (must be secure)**
+
+•	The group discusses on what data are required by a subsystem for one user type but must be provided by other subsystems. 
+ -Information of products
+ -Usernames
+ -Passwords
+ -Prices
+ -Stock count
+ -Payment information
+ -Item locations
