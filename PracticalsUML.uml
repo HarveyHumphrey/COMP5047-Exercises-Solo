@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hUw8kJ3bEfCKiOlwAMa0fA" name="PracticalsUML">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hX5wIJ3bEfCKiOlwAMa0fA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LpX8QJ3dEfC6E9m6VUY1Lw" name="Mobile Shopping - Registration">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FxTVoJ3dEfC6E9m6VUY1Lw" name="Store Inforamtion in database"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CfRkMJ3dEfC6E9m6VUY1Lw" name="Check if any exist"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0jBrwJ3cEfC6E9m6VUY1Lw" name="Prompt User -> Name"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_745GEJ3cEfC6E9m6VUY1Lw" name="Prompt User  -> Password"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-tJ9cJ3cEfC6E9m6VUY1Lw" name="Prompt User -> Email"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_wgOksJ3cEfC6E9m6VUY1Lw" name="Customer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Uz6ZMJ3dEfC6E9m6VUY1Lw" memberEnd="_Uz-qoJ3dEfC6E9m6VUY1Lw _U0Af0J3dEfC6E9m6VUY1Lw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uz9cgJ3dEfC6E9m6VUY1Lw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uz-DkJ3dEfC6E9m6VUY1Lw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Uz-qoJ3dEfC6E9m6VUY1Lw" name="prompt user -> name" type="_0jBrwJ3cEfC6E9m6VUY1Lw" association="_Uz6ZMJ3dEfC6E9m6VUY1Lw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_U0Af0J3dEfC6E9m6VUY1Lw" name="customer" type="_wgOksJ3cEfC6E9m6VUY1Lw" association="_Uz6ZMJ3dEfC6E9m6VUY1Lw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V1FiUJ3dEfC6E9m6VUY1Lw" memberEnd="_V1H-kZ3dEfC6E9m6VUY1Lw _V1H-kp3dEfC6E9m6VUY1Lw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V1HXgJ3dEfC6E9m6VUY1Lw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V1H-kJ3dEfC6E9m6VUY1Lw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V1H-kZ3dEfC6E9m6VUY1Lw" name="prompt user  -> password" type="_745GEJ3cEfC6E9m6VUY1Lw" association="_V1FiUJ3dEfC6E9m6VUY1Lw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_V1H-kp3dEfC6E9m6VUY1Lw" name="customer" type="_wgOksJ3cEfC6E9m6VUY1Lw" association="_V1FiUJ3dEfC6E9m6VUY1Lw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WjpRcJ3dEfC6E9m6VUY1Lw" memberEnd="_WjrGop3dEfC6E9m6VUY1Lw _WjrtsJ3dEfC6E9m6VUY1Lw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WjrGoJ3dEfC6E9m6VUY1Lw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WjrGoZ3dEfC6E9m6VUY1Lw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WjrGop3dEfC6E9m6VUY1Lw" name="prompt user -> email" type="_-tJ9cJ3cEfC6E9m6VUY1Lw" association="_WjpRcJ3dEfC6E9m6VUY1Lw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WjrtsJ3dEfC6E9m6VUY1Lw" name="customer" type="_wgOksJ3cEfC6E9m6VUY1Lw" association="_WjpRcJ3dEfC6E9m6VUY1Lw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cEPMMJ3dEfC6E9m6VUY1Lw" memberEnd="_cEY9MJ3dEfC6E9m6VUY1Lw _cEY9MZ3dEfC6E9m6VUY1Lw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cEXvEJ3dEfC6E9m6VUY1Lw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cEYWIJ3dEfC6E9m6VUY1Lw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cEY9MJ3dEfC6E9m6VUY1Lw" name="check if any exist" type="_CfRkMJ3dEfC6E9m6VUY1Lw" association="_cEPMMJ3dEfC6E9m6VUY1Lw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cEY9MZ3dEfC6E9m6VUY1Lw" name="prompt user  -> password" type="_745GEJ3cEfC6E9m6VUY1Lw" association="_cEPMMJ3dEfC6E9m6VUY1Lw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dN2foJ3dEfC6E9m6VUY1Lw" memberEnd="_dN7YIp3dEfC6E9m6VUY1Lw _dN7_MJ3dEfC6E9m6VUY1Lw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dN7YIJ3dEfC6E9m6VUY1Lw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dN7YIZ3dEfC6E9m6VUY1Lw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dN7YIp3dEfC6E9m6VUY1Lw" name="store inforamtion in database" type="_FxTVoJ3dEfC6E9m6VUY1Lw" association="_dN2foJ3dEfC6E9m6VUY1Lw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dN7_MJ3dEfC6E9m6VUY1Lw" name="check if any exist" type="_CfRkMJ3dEfC6E9m6VUY1Lw" association="_dN2foJ3dEfC6E9m6VUY1Lw"/>
+  </packagedElement>
+</uml:Model>
