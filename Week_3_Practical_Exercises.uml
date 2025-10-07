@@ -89,4 +89,67 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_2apmYKNbEfC0pbDFkbyPog" name="manage promotions" type="_mgyxwKNbEfC0pbDFkbyPog" association="_2ai4sKNbEfC0pbDFkbyPog"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_2apmYaNbEfC0pbDFkbyPog" type="_1whrUKNbEfC0pbDFkbyPog" association="_2ai4sKNbEfC0pbDFkbyPog"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Dkb_wKNfEfCMmKR0O_meyg" name="Travel Agency Portal">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LcBnEKNfEfCMmKR0O_meyg" name="View Tour Information"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NRn2wKNfEfCMmKR0O_meyg" name="Make Reservation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OQMX0KNfEfCMmKR0O_meyg" name="Cancel Reservation"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SNCA0KNfEfCMmKR0O_meyg" name="Submit Feedback"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TY3h0KNfEfCMmKR0O_meyg" name="Log in"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VtkvYKNfEfCMmKR0O_meyg" name="Manage Customer Information">
+      <include xmi:type="uml:Include" xmi:id="_385fcKNfEfCMmKR0O_meyg" addition="_TY3h0KNfEfCMmKR0O_meyg"/>
+      <include xmi:type="uml:Include" xmi:id="_6yoWcKNfEfCMmKR0O_meyg" addition="_ZQn_YKNfEfCMmKR0O_meyg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZQn_YKNfEfCMmKR0O_meyg" name="Manage Tour Information"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Grq2cKNfEfCMmKR0O_meyg" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HjGNsKNfEfCMmKR0O_meyg" name="Employee"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lVffcKNfEfCMmKR0O_meyg" memberEnd="_lVm0MKNfEfCMmKR0O_meyg _lVnbQKNfEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lVmNIKNfEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lVmNIaNfEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lVm0MKNfEfCMmKR0O_meyg" name="view tour information" type="_LcBnEKNfEfCMmKR0O_meyg" association="_lVffcKNfEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lVnbQKNfEfCMmKR0O_meyg" name="customer" type="_Grq2cKNfEfCMmKR0O_meyg" association="_lVffcKNfEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sfC8EKNfEfCMmKR0O_meyg" memberEnd="_sfFYUKNfEfCMmKR0O_meyg _sfFYUaNfEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sfExQKNfEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sfExQaNfEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sfFYUKNfEfCMmKR0O_meyg" name="log in" type="_TY3h0KNfEfCMmKR0O_meyg" association="_sfC8EKNfEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sfFYUaNfEfCMmKR0O_meyg" name="employee" type="_HjGNsKNfEfCMmKR0O_meyg" association="_sfC8EKNfEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_83fxMKNfEfCMmKR0O_meyg" memberEnd="_83g_UqNfEfCMmKR0O_meyg _83g_U6NfEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83g_UKNfEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83g_UaNfEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_83g_UqNfEfCMmKR0O_meyg" name="manage customer information" type="_VtkvYKNfEfCMmKR0O_meyg" association="_83fxMKNfEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_83g_U6NfEfCMmKR0O_meyg" type="_sfC8EKNfEfCMmKR0O_meyg" association="_83fxMKNfEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-0C9cKNfEfCMmKR0O_meyg" memberEnd="_-0FZsaNfEfCMmKR0O_meyg _-0FZsqNfEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-0EyoKNfEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-0FZsKNfEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-0FZsaNfEfCMmKR0O_meyg" name="manage tour information" type="_ZQn_YKNfEfCMmKR0O_meyg" association="_-0C9cKNfEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-0FZsqNfEfCMmKR0O_meyg" type="_sfC8EKNfEfCMmKR0O_meyg" association="_-0C9cKNfEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DSISUKNgEfCMmKR0O_meyg" memberEnd="_DSKHgKNgEfCMmKR0O_meyg _DSKHgaNgEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DSJgcKNgEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DSJgcaNgEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DSKHgKNgEfCMmKR0O_meyg" name="make reservation" type="_NRn2wKNfEfCMmKR0O_meyg" association="_DSISUKNgEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DSKHgaNgEfCMmKR0O_meyg" type="_lVffcKNfEfCMmKR0O_meyg" association="_DSISUKNgEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Er-aIKNgEfCMmKR0O_meyg" memberEnd="_EsBdcqNgEfCMmKR0O_meyg _EsCEgKNgEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EsBdcKNgEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EsBdcaNgEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EsBdcqNgEfCMmKR0O_meyg" name="cancel reservation" type="_OQMX0KNfEfCMmKR0O_meyg" association="_Er-aIKNgEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EsCEgKNgEfCMmKR0O_meyg" type="_lVffcKNfEfCMmKR0O_meyg" association="_Er-aIKNgEfCMmKR0O_meyg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GW7gEKNgEfCMmKR0O_meyg" memberEnd="_GW98UaNgEfCMmKR0O_meyg _GW98UqNgEfCMmKR0O_meyg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GW9VQKNgEfCMmKR0O_meyg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GW98UKNgEfCMmKR0O_meyg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GW98UaNgEfCMmKR0O_meyg" type="_lVffcKNfEfCMmKR0O_meyg" association="_GW7gEKNgEfCMmKR0O_meyg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GW98UqNgEfCMmKR0O_meyg" name="submit feedback" type="_SNCA0KNfEfCMmKR0O_meyg" association="_GW7gEKNgEfCMmKR0O_meyg"/>
+  </packagedElement>
 </uml:Model>
