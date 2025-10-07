@@ -1,0 +1,28 @@
+Use Case Description – WK3  System Administrator
+
+
+Name – System Admin View User Purchase History 
+Description: System operator views user’s information, including names and purchase orders, has the ability to amend orders and change user’s details.
+Participating actor: System Administrator
+Key Details: Admin must be able to access all user types from simple data, e.g. a username or an address that can be verified by the user. Can see past orders from a list of months. (last month, 3 months, 9 months, 1 year), and is able to see if any issues have arisen with the orders such as reviews from the customer.
+Exit Condition: User information must be able to be changed or amended. Information must be correct and be able to be viewed easily without altering unnecessary information that wasn’t requested by the user.
+
+Event Flow: 
+1.	User Orders an item online and goes to collect the item
+2.	Admin asks for the user’s name on the order
+3.	Admin searches for this name and checks if there are any orders for that item
+4.	If the item is within their purchase history, then the item can be collected otherwise it needs to be looked into deeper as there could be an issue (check user confirmation email for example)
+5.	When item is collected make sure that the item is market as completed so that they are unable to collect the same item multiple times.
+
+Exceptional Flows:
+1.	User’s account doesn’t show up (ask for other information that could identify the user)
+2.	Item is out of stock when customer arrives (order item to the store if that happens)
+3.	System is down / internet is out:
+a.	Reboot the system
+b.	Wait a while
+c.	Check if it is working again
+d.	If nothing else works then contact someone to come fix it and apologise to the customers saying there is nothing that they can do unless they show proof of purchase (e.g. email confirmation)
+
+
+
+
