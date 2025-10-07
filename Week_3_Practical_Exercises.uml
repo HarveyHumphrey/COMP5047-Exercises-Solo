@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BLR7kKNVEfC0pbDFkbyPog" name="Week_3_Practical_Exercises">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BLR7kKNVEfC0pbDFkbyPog" name="Week_3_Practical_Exercises">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_BNYNUKNVEfC0pbDFkbyPog">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_4IfvoKNYEfC0pbDFkbyPog" name="Package2">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_DxoV8KNZEfC0pbDFkbyPog" name="ADDED AS AN IMAGE ON GITHUB BECAUSE IT KEPT DELETING, WHEN PUSHING THE COMMIT"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_IqvZ8KNZEfC0pbDFkbyPog" name="THIS IS JUST THE TEST ONE ON THE SLIDES"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mA-esKNaEfC0pbDFkbyPog" name="Mobile Shopping System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7fnxkKNaEfC0pbDFkbyPog" name="View User Accounts">
+      <extend xmi:type="uml:Extend" xmi:id="_KFU2sKNbEfC0pbDFkbyPog" extendedCase="_AicLMKNbEfC0pbDFkbyPog" extensionLocation="_KFWE0KNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_K3YlwKNbEfC0pbDFkbyPog" extendedCase="_BaNgsKNbEfC0pbDFkbyPog" extensionLocation="_K3ZM0KNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_LyMBIKNbEfC0pbDFkbyPog" extendedCase="_Ehc-cKNbEfC0pbDFkbyPog" extensionLocation="_LyNPQKNbEfC0pbDFkbyPog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AicLMKNbEfC0pbDFkbyPog" name="Edit User Accounts">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KFWE0KNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BaNgsKNbEfC0pbDFkbyPog" name="View Users Purchases Products">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_K3ZM0KNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Ehc-cKNbEfC0pbDFkbyPog" name="Delete User Accounts">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_LyNPQKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OcnnEKNbEfC0pbDFkbyPog" name="Manage Products">
+      <extend xmi:type="uml:Extend" xmi:id="_aGXRYKNbEfC0pbDFkbyPog" extendedCase="_Vyr1sKNbEfC0pbDFkbyPog" extensionLocation="_aGYfgKNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_alqcgKNbEfC0pbDFkbyPog" extendedCase="_UBtnUKNbEfC0pbDFkbyPog" extensionLocation="_alrDkKNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_bK3bUKNbEfC0pbDFkbyPog" extendedCase="_SWYG4KNbEfC0pbDFkbyPog" extensionLocation="_bK4pcKNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_bzCOkKNbEfC0pbDFkbyPog" extendedCase="_XckkoKNbEfC0pbDFkbyPog" extensionLocation="_bzC1oKNbEfC0pbDFkbyPog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SWYG4KNbEfC0pbDFkbyPog" name="View Product Stock">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bK4pcKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UBtnUKNbEfC0pbDFkbyPog" name="Order More Stock">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_alrDkKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vyr1sKNbEfC0pbDFkbyPog" name="Cancel Deliveries">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aGYfgKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_d4mM4KNbEfC0pbDFkbyPog" addition="_UBtnUKNbEfC0pbDFkbyPog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XckkoKNbEfC0pbDFkbyPog" name="Check Delivery window for stock">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bzC1oKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mgyxwKNbEfC0pbDFkbyPog" name="Manage Promotions">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yfpwcKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ohO_gKNbEfC0pbDFkbyPog" name="Configure System">
+      <extend xmi:type="uml:Extend" xmi:id="_yD3zYKNbEfC0pbDFkbyPog" extendedCase="_qrYi4KNbEfC0pbDFkbyPog" extensionLocation="_yD62sKNbEfC0pbDFkbyPog"/>
+      <extend xmi:type="uml:Extend" xmi:id="_yfpJYKNbEfC0pbDFkbyPog" extendedCase="_mgyxwKNbEfC0pbDFkbyPog" extensionLocation="_yfpwcKNbEfC0pbDFkbyPog"/>
+      <include xmi:type="uml:Include" xmi:id="_3zQ_IKNbEfC0pbDFkbyPog" addition="_OcnnEKNbEfC0pbDFkbyPog"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qrYi4KNbEfC0pbDFkbyPog" name="Generate Reports">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yD62sKNbEfC0pbDFkbyPog" name="ExtensionPoint1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5VrCgKNaEfC0pbDFkbyPog" name="System Admin"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zb0dwKNbEfC0pbDFkbyPog" memberEnd="_zb2S8qNbEfC0pbDFkbyPog _zb26AKNbEfC0pbDFkbyPog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zb2S8KNbEfC0pbDFkbyPog" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zb2S8aNbEfC0pbDFkbyPog" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zb2S8qNbEfC0pbDFkbyPog" name="edit user accounts" type="_AicLMKNbEfC0pbDFkbyPog" association="_zb0dwKNbEfC0pbDFkbyPog"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zb26AKNbEfC0pbDFkbyPog" name="system admin" type="_5VrCgKNaEfC0pbDFkbyPog" association="_zb0dwKNbEfC0pbDFkbyPog"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0OKgsKNbEfC0pbDFkbyPog" memberEnd="_0OOLEqNbEfC0pbDFkbyPog _0OOyIKNbEfC0pbDFkbyPog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0OOLEKNbEfC0pbDFkbyPog" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0OOLEaNbEfC0pbDFkbyPog" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0OOLEqNbEfC0pbDFkbyPog" name="view users purchases products" type="_BaNgsKNbEfC0pbDFkbyPog" association="_0OKgsKNbEfC0pbDFkbyPog"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0OOyIKNbEfC0pbDFkbyPog" name="system admin" type="_5VrCgKNaEfC0pbDFkbyPog" association="_0OKgsKNbEfC0pbDFkbyPog"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1G3qUKNbEfC0pbDFkbyPog" memberEnd="_1G44cqNbEfC0pbDFkbyPog _1G5fgKNbEfC0pbDFkbyPog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1G44cKNbEfC0pbDFkbyPog" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1G44caNbEfC0pbDFkbyPog" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1G44cqNbEfC0pbDFkbyPog" name="delete user accounts" type="_Ehc-cKNbEfC0pbDFkbyPog" association="_1G3qUKNbEfC0pbDFkbyPog"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1G5fgKNbEfC0pbDFkbyPog" name="system admin" type="_5VrCgKNaEfC0pbDFkbyPog" association="_1G3qUKNbEfC0pbDFkbyPog"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1whrUKNbEfC0pbDFkbyPog" memberEnd="_1wkHkKNbEfC0pbDFkbyPog _1wnx8KNbEfC0pbDFkbyPog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1wjggKNbEfC0pbDFkbyPog" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1wjggaNbEfC0pbDFkbyPog" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1wkHkKNbEfC0pbDFkbyPog" name="generate reports" type="_qrYi4KNbEfC0pbDFkbyPog" association="_1whrUKNbEfC0pbDFkbyPog"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1wnx8KNbEfC0pbDFkbyPog" name="system admin" type="_5VrCgKNaEfC0pbDFkbyPog" association="_1whrUKNbEfC0pbDFkbyPog"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2ai4sKNbEfC0pbDFkbyPog" memberEnd="_2apmYKNbEfC0pbDFkbyPog _2apmYaNbEfC0pbDFkbyPog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2ao_UKNbEfC0pbDFkbyPog" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2ao_UaNbEfC0pbDFkbyPog" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2apmYKNbEfC0pbDFkbyPog" name="manage promotions" type="_mgyxwKNbEfC0pbDFkbyPog" association="_2ai4sKNbEfC0pbDFkbyPog"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2apmYaNbEfC0pbDFkbyPog" type="_1whrUKNbEfC0pbDFkbyPog" association="_2ai4sKNbEfC0pbDFkbyPog"/>
   </packagedElement>
 </uml:Model>
