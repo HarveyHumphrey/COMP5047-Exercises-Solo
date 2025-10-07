@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_xtD9QKNYEfC0pbDFkbyPog" type="UseCase" name="WK3 UseCase" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_4IjaAKNYEfC0pbDFkbyPog" type="Package_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4IjaAqNYEfC0pbDFkbyPog" type="Package_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_4IjaA6NYEfC0pbDFkbyPog" type="Package_PackagedElementCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_DxuckKNZEfC0pbDFkbyPog" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_DxvDoKNZEfC0pbDFkbyPog" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_DxvDoaNZEfC0pbDFkbyPog" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DxvDoqNZEfC0pbDFkbyPog" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_DxvDo6NZEfC0pbDFkbyPog" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DxvDpKNZEfC0pbDFkbyPog"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DxvDpaNZEfC0pbDFkbyPog"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxvDpqNZEfC0pbDFkbyPog"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="Week_3_Practical_Exercises.uml#_DxoV8KNZEfC0pbDFkbyPog"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxuckaNZEfC0pbDFkbyPog" x="114" y="52"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IqydQKNZEfC0pbDFkbyPog" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_IqydQqNZEfC0pbDFkbyPog" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_IqydQ6NZEfC0pbDFkbyPog" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IqydRKNZEfC0pbDFkbyPog" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_IqydRaNZEfC0pbDFkbyPog" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_IqydRqNZEfC0pbDFkbyPog"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_IqydR6NZEfC0pbDFkbyPog"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IqydSKNZEfC0pbDFkbyPog"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="Week_3_Practical_Exercises.uml#_IqvZ8KNZEfC0pbDFkbyPog"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IqydQaNZEfC0pbDFkbyPog" x="214" y="112"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4IjaBKNYEfC0pbDFkbyPog"/>
+      </children>
+      <element xmi:type="uml:Package" href="Week_3_Practical_Exercises.uml#_4IfvoKNYEfC0pbDFkbyPog"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4IjaAaNYEfC0pbDFkbyPog" x="300" y="100" width="661" height="381"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_xtD9QaNYEfC0pbDFkbyPog" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_xtD9QqNYEfC0pbDFkbyPog"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_xtD9Q6NYEfC0pbDFkbyPog" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="Week_3_Practical_Exercises.uml#_BLR7kKNVEfC0pbDFkbyPog"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Week_3_Practical_Exercises.uml#_BLR7kKNVEfC0pbDFkbyPog"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_KgOfcKNaEfC0pbDFkbyPog" type="UseCase" name="Task2UseCaseWK3" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_KgOfcaNaEfC0pbDFkbyPog" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_KgOfcqNaEfC0pbDFkbyPog"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_KgOfc6NaEfC0pbDFkbyPog" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+      <owner xmi:type="uml:Model" href="Week_3_Practical_Exercises.uml#_BLR7kKNVEfC0pbDFkbyPog"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Week_3_Practical_Exercises.uml#_BLR7kKNVEfC0pbDFkbyPog"/>
+  </notation:Diagram>
+</xmi:XMI>
